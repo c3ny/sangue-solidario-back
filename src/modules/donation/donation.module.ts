@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { DonationService } from './service/donation.service';
-import { DonationController } from './controllers/donation.controller';
+import { DonationController } from './controller/donation.controller';
 import { DonationRepository } from './repository/donation.repository';
 
 @Module({
