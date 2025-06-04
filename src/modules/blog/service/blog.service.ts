@@ -8,4 +8,8 @@ export class BlogService {
   getPostsList() {
     return this.blogRepository.getPostList();
   }
+
+  getPost(id: number) {
+    return this.blogRepository.getPost(id);
+  }
 }
