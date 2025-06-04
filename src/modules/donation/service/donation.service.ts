@@ -8,4 +8,8 @@ export class DonationService {
   getListOfDonations() {
     return this.donationRepository.getListOfDonations();
   }
+
+  getDonation(id: number) {
+    return this.donationRepository.getDonation(id);
+  }
 }
