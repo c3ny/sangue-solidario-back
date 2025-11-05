@@ -16,7 +16,7 @@
 
 A plataforma **Sangue Solidário** visa facilitar a doação de sangue, promovendo conscientização sobre o tema e conectando doadores a pessoas ou hemocentros necessitados — e vice-versa — através de um website moderno, acessível e responsivo.
 
-O **frontend** é desenvolvido em **Next.js 15**, com **React**, **Tailwind CSS**, **Bootstrap** e **SCSS**, priorizando a experiência do usuário e o design responsivo.
+O **frontend** é desenvolvido em **Next.js 15**, com **React**, **React Leaflet** e **SCSS**, priorizando a experiência do usuário e o design responsivo.
 
 ---
 
@@ -114,12 +114,9 @@ As sprints foram organizadas para garantir entregas contínuas, com evolução g
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![Axios](https://img.shields.io/badge/Axios-671ddf?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
 [![JSON](https://img.shields.io/badge/JSON-5E5C5C?style=for-the-badge&logo=json&logoColor=white)](https://www.json.org/)
 [![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
 [![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)](https://code.visualstudio.com/)
