@@ -101,7 +101,7 @@ As sprints foram organizadas para garantir entregas contínuas, com evolução g
     <tr>
       <td>4</td>
       <td>28/10/2025 – 11/11/2025</td>
-      <td> Concluída</td>
+      <td> Con</td>
       <td>##há preencher##</td>
     </tr>
   </tbody>
@@ -137,24 +137,3 @@ As sprints foram organizadas para garantir entregas contínuas, com evolução g
 | **Ysrael Moreno** | Scrum Master |
 
 ---
-
-<style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-  border-radius: 8px;
-  overflow: hidden;
-}
-th {
-  background-color: #f3f3f3;
-  text-align: left;
-}
-td, th {
-  border: 1px solid #ccc;
-  padding: 8px 12px;
-  vertical-align: top;
-}
-tr:nth-child(even) {
-  background-color: #fafafa;
-}
-</style>
