@@ -62,10 +62,10 @@ O Sangue Solidário Frontend é uma aplicação web moderna desenvolvida com Nex
 ## Sprints
 | Sprint | Período | Status | Entregas / O que foi feito |
 |:-------:|:--------:|:--------:|:----------------------------|
-| Sprint 1 | 15/09/2025 – 29/09/2025 | ✅ Concluída | *(adicione aqui o que foi desenvolvido nesta sprint)* |
-| Sprint 2 | 29/09/2025 – 13/10/2025 | ✅ Concluída | *(adicione aqui as funcionalidades entregues nesta sprint)* |
-| Sprint 3 | 13/10/2025 – 27/10/2025 | ✅ Concluída | *(adicione aqui melhorias, correções ou novas features)* |
-| Sprint 4 | 28/10/2025 – 11/11/2025 | 🔄 Em andamento | *(adicione o que está sendo desenvolvido)* |
+| Sprint 1 | 15/09/2025 – 29/09/2025 | Concluída | *(adicione aqui o que foi desenvolvido nesta sprint)* |
+| Sprint 2 | 29/09/2025 – 13/10/2025 | Concluída | *(adicione aqui as funcionalidades entregues nesta sprint)* |
+| Sprint 3 | 13/10/2025 – 27/10/2025 | Concluída | *(adicione aqui melhorias, correções ou novas features)* |
+| Sprint 4 | 28/10/2025 – 11/11/2025 | Em andamento | *(adicione o que está sendo desenvolvido)* |
 
 ## Tecnologias
 
@@ -80,3 +80,9 @@ O Sangue Solidário Frontend é uma aplicação web moderna desenvolvida com Nex
 ![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
+##  Colaboradores
+
+| Nome | Função |
+|------|---------|
+| Caio Cesar Martins de Lima | Product Owner |
+| Ysrael Moreno | Scrum Master |
