@@ -1,98 +1,82 @@
 <p align="center">
-  <a href="https://sangue-solidario-nextjs.vercel.app/" target="blank"><img src = ./assests/logo.png width="120" alt="Nest Logo" /></a>
+  <a href="https://sangue-solidario-nextjs.vercel.app/" target="blank"><img src = ./assests/logo.png width="720" alt="Nest Logo" /></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+  <p align="center">Conectando vidas através da solidariedade. Uma plataforma que facilita a doação de sangue e salva vidas todos os dias.</p>
     <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Sobre o Projeto
+A plataforma SANGUE SOLIDÁRIO visa facilitar a doação de sangue promovendo conscientização sobre o tema, conectando doadores a pessoas ou hemocentros necessitados e vice-versa através de um website completo.
 
-## Project setup
+O Sangue Solidário Frontend é uma aplicação web moderna desenvolvida com Next.js 15 que facilita a conexão entre doadores de sangue e instituições de saúde.
 
-```bash
-$ npm install
-```
 
-## Compile and run the project
+## Casos de Uso
+<img src="./assests/imagem.png" alt="Imagem ilustrativa do projeto" width="800"/>
 
-```bash
-# development
-$ npm run start
 
-# watch mode
-$ npm run start:dev
 
-# production mode
-$ npm run start:prod
-```
+<div style="display: flex; gap: 20px; align-items: flex-start;">
 
-## Run tests
+  <div style="flex: 1;">
+    <h3>Requisitos Funcionais (RF)</h3>
+    <table border="1" cellspacing="0" cellpadding="6">
+      <tr><th>Código</th><th>Funcionalidade</th><th>Descrição</th></tr>
+      <tr><td>RF001</td><td>Landing Page</td><td>Fornece informações gerais sobre as doações necessárias em sua região, com base na localização do dispositivo ou da seleção feita pelo usuário.</td></tr>
+      <tr><td>RF002</td><td>Cadastro de doação</td><td>Cadastrar as informações relacionadas às necessidades de doações de usuários (pessoas físicas ou hemocentros).</td></tr>
+      <tr><td>RF003</td><td>Visualização de necessidades de doação</td><td>Fornece detalhes sobre as necessidades de doações que o usuário deseja atender/auxiliar.</td></tr>
+      <tr><td>RF004</td><td>Listagem de necessidades de doação</td><td>Fornece uma lista de necessidade de doação ordenada por tipo sanguíneo predefinido pelo usuário com base em seu cadastro.</td></tr>
+      <tr><td>RF005</td><td>Cadastro de usuário</td><td>Cadastrar usuário (cidadão, hospitais e/ou hemocentros).</td></tr>
+      <tr><td>RF006</td><td>Blog</td><td>Fornecer textos, áudios, vídeos ou links externos relacionados a doação de sangue/questões de saúde pública.</td></tr>
+      <tr><td>RF007</td><td>Localização</td><td>Sinalizar os hemocentros mais próximos da sua localização atual ou da cidade selecionada.</td></tr>
+      <tr><td>RF009</td><td>Alerta de doação</td><td>Alertar o usuário, dentro do próprio site, que ele está apto a doar após o tempo de espera baseado em sua última doação.</td></tr>
+      <tr><td>RF010</td><td>Monetização</td><td>Website arrecada monetização por meio de anúncios contratados via formulário de contato e através de doações que podem ser feitas por qualquer usuário.</td></tr>
+      <tr><td>RF011</td><td>Gerenciamento de perfil</td><td>Os usuários cadastrados, sejam cidadãos ou hemocentro/hospitais poderão gerenciar seu perfil na plataforma.</td></tr>
+    </table>
+  </div>
 
-```bash
-# unit tests
-$ npm run test
+  <div style="flex: 1;">
+    <h3>Requisitos Não Funcionais (RNF)</h3>
+    <table border="1" cellspacing="0" cellpadding="6">
+      <tr><th>Código</th><th>Requisito Não Funcional</th></tr>
+      <tr><td>RNF001</td><td>As informações dos usuários, como dados pessoais e localização, devem ser protegidas por criptografia, utilizando protocolos de segurança como HTTPS e armazenamento seguro.</td></tr>
+      <tr><td>RNF002</td><td>Deve seguir as normas de proteção de dados (como a LGPD no Brasil) para garantir a privacidade dos dados dos doadores e instituições.</td></tr>
+      <tr><td>RNF003</td><td>Backup automático de dados deve ser realizado diariamente, com plano de recuperação em caso de falha do sistema.</td></tr>
+      <tr><td>RNF004</td><td>O código-fonte deve ser modular e seguir boas práticas de desenvolvimento, para facilitar futuras correções e atualizações.</td></tr>
+      <tr><td>RNF005</td><td>Deve haver documentação clara e detalhada do código e do design do sistema, facilitando a manutenção por diferentes equipes.</td></tr>
+      <tr><td>RNF006</td><td>O site deve ser intuitivo e acessível a usuários de diferentes perfis, incluindo suporte a acessibilidade.</td></tr>
+      <tr><td>RNF007</td><td>O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge).</td></tr>
+      <tr><td>RNF008</td><td>A infraestrutura do sistema deve ser eficiente em termos de uso de recursos, como energia e processamento, reduzindo a pegada de carbono e o custo operacional.</td></tr>
+    </table>
+  </div>
 
-# e2e tests
-$ npm run test:e2e
+</div>
 
-# test coverage
-$ npm run test:cov
-```
 
-## Deployment
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+## Sprints
+| Sprint | Período | Status | Entregas / O que foi feito |
+|:-------:|:--------:|:--------:|:----------------------------|
+| Sprint 1 | 15/09/2025 – 29/09/2025 | ✅ Concluída | *(adicione aqui o que foi desenvolvido nesta sprint)* |
+| Sprint 2 | 29/09/2025 – 13/10/2025 | ✅ Concluída | *(adicione aqui as funcionalidades entregues nesta sprint)* |
+| Sprint 3 | 13/10/2025 – 27/10/2025 | ✅ Concluída | *(adicione aqui melhorias, correções ou novas features)* |
+| Sprint 4 | 28/10/2025 – 11/11/2025 | 🔄 Em andamento | *(adicione o que está sendo desenvolvido)* |
 
-```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
-```
+## Tecnologias
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Axios](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-## Resources
-
-Check out a few resources that may come in handy when working with NestJS:
-
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
