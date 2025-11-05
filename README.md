@@ -100,7 +100,7 @@ As sprints foram organizadas para garantir entregas contínuas, com evolução g
     <tr>
       <td>4</td>
       <td>28/10/2025 – 11/11/2025</td>
-      <td>Concluída</td>
+      <td>Em desenvolvimento</td>
       <td>Implementação da página de hemocentros e integração com o micro serviço blood-stock-service</td>
     </tr>
   </tbody>
