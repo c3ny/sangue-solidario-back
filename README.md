@@ -39,11 +39,10 @@ O **frontend** é desenvolvido em **Next.js 15**, com **React**, **Tailwind CSS*
       <tr><td>RF003</td><td>Visualização de necessidades</td><td>Exibe detalhes sobre as necessidades de doações que o usuário deseja atender.</td></tr>
       <tr><td>RF004</td><td>Listagem de necessidades</td><td>Lista as necessidades de doação ordenadas por tipo sanguíneo conforme o perfil do usuário.</td></tr>
       <tr><td>RF005</td><td>Cadastro de usuário</td><td>Cadastro de usuários (cidadãos, hospitais e/ou hemocentros).</td></tr>
-      <tr><td>RF006</td><td>Blog</td><td>Disponibiliza textos, vídeos e links sobre doação de sangue e saúde pública.</td></tr>
-      <tr><td>RF007</td><td>Localização</td><td>Mostra hemocentros mais próximos com base na localização atual ou cidade selecionada.</td></tr>
-      <tr><td>RF009</td><td>Alerta de doação</td><td>Notifica o usuário quando ele estiver apto a doar novamente.</td></tr>
-      <tr><td>RF010</td><td>Monetização</td><td>Permite arrecadar recursos via anúncios e doações diretas.</td></tr>
-      <tr><td>RF011</td><td>Gerenciamento de perfil</td><td>Usuários podem gerenciar suas informações e preferências.</td></tr>
+      <tr><td>RF006</td><td>Localização</td><td>Mostra hemocentros mais próximos com base na localização atual ou cidade selecionada.</td></tr>
+      <tr><td>RF007</td><td>Alerta de doação</td><td>Notifica o usuário quando ele estiver apto a doar novamente.</td></tr>
+      <tr><td>RF008</td><td>Monetização</td><td>Permite arrecadar recursos via anúncios e doações diretas.</td></tr>
+      <tr><td>RF009</td><td>Gerenciamento de perfil</td><td>Usuários podem gerenciar suas informações e preferências.</td></tr>
     </table>
   </div>
 
