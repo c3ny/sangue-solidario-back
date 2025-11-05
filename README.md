@@ -83,26 +83,26 @@ As sprints foram organizadas para garantir entregas contínuas, com evolução g
     <tr>
       <td>1</td>
       <td>15/09/2025 – 29/09/2025</td>
-      <td> Concluída</td>
-      <td>##há preencher##</td>
+      <td>Concluída</td>
+      <td>Implementação do mapa interativo de solicitações de doação de sangue.</td>
     </tr>
     <tr>
       <td>2</td>
       <td>29/09/2025 – 13/10/2025</td>
-      <td> Concluída</td>
-      <td>##há preencher##</td>
+      <td>Concluída</td>
+      <td>Criação do micro serviço users-service</td>
     </tr>
     <tr>
       <td>3</td>
       <td>13/10/2025 – 27/10/2025</td>
-      <td> Concluída</td>
-      <td>##há preencher##.</td>
+      <td>Concluída</td>
+      <td>Implementação do processo de autenticação e a listagem de solicitações.</td>
     </tr>
     <tr>
       <td>4</td>
       <td>28/10/2025 – 11/11/2025</td>
-      <td> Con</td>
-      <td>##há preencher##</td>
+      <td>Concluída</td>
+      <td>Implementação da página de hemocentros e integração com o micro serviço blood-stock-service</td>
     </tr>
   </tbody>
 </table>
@@ -131,9 +131,9 @@ As sprints foram organizadas para garantir entregas contínuas, com evolução g
 
 ## Colaboradores
 
-| Nome | Função |
-|------|--------|
+| Nome                           | Função        |
+| ------------------------------ | ------------- |
 | **Caio Cesar Martins de Lima** | Product Owner |
-| **Ysrael Moreno** | Scrum Master |
+| **Ysrael Moreno**              | Scrum Master  |
 
 ---
